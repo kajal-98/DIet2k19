@@ -1,0 +1,53 @@
+﻿body 
+{
+    background-image: url('Images/back5.jpg');
+    font-family:Calibri Arial Rounded MT Bold Courier New Greek Pristina;
+    font-size: large;
+    text-align: left;
+}
+.tab
+{
+    width:60%;
+    border: 5px solid #000066;
+    background-color:#FFFFFF;
+    height: 121px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+    
+}
+
+.but
+{
+    border: 5px Solid #000099;
+    font-family: 'Arial Rounded MT Bold Calibri Light Haettenschweiler '; 
+    font-size: large; 
+    color:ThreeDShadow;  
+    font-weight:700;
+    background-color: #507CD1;
+    }
+.tabuser
+{
+    width: 100%;
+    border: 3px solid #000099;
+    background-color: #EFF3FB;
+    height: 75px;
+}
+.tdtag
+{
+    background-color: #507CD1; 
+    font-size: xx-large; 
+    font-family: Arial Rounded MT Bold; 
+    font-weight: 700; 
+    color: #FFFFFF;
+    text-align: center;
+}
+.BMI
+{
+  background-color: #009900;
+  color:#66FF33; 
+  font-size:medium;
+  font-weight:300;
+  border:5px;
+  font-family:Arial 
+}

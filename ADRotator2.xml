@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+ <Ad>
+    <ImageUrl>~/images/AD2.jpg</ImageUrl>
+    <Impressions>12</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/AD3.jpg</ImageUrl>
+    <Impressions>15</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/mediterranean_diet-drupal.jpg</ImageUrl>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/AD1.jpg</ImageUrl>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/AD4.jpg</ImageUrl>
+    <Impressions>15</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/AD5.jpg</ImageUrl>
+    <Impressions>9</Impressions>
+  </Ad>
+  </Advertisements>

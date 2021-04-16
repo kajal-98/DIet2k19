@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript">
+        history.forward();
+    
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style3
+        {
+            border: 5px Solid #000099;
+            font-family: "Arial Rounded MT Bold Calibri Light Haettenschweiler";
+            font-size: large;
+            font-weight: 700;
+            background-color: #69FF69;
+            text-align: center;
+        }
+        .style4
+        {
+            border: 5px Solid #000099;
+            font-family: "Arial Rounded MT Bold Calibri Light Haettenschweiler";
+            font-size: large;
+            color: ThreeDShadow;
+            font-weight: 700;
+            background-color: #507CD1;
+            text-align: center;
+            width: 167px;
+        }
+    </style>
+    <link href="../StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table align="center" class="tab">
+            <tr>
+                <td colspan="9">
+                    <asp:Image ID="Image1" runat="server" AlternateText="MaterImage" 
+                        ImageUrl="~/Images/masterimage.png" Height="175px" Width="1170px"  
+                        style="margin-bottom: 0px"/>  
+                    </td>
+                
+            </tr>
+            <tr>
+            <td class="style3">
+                <asp:HyperLink ID="HyperLink9" runat="server" 
+                    NavigateUrl="~/Admin/Profile_Page.aspx" ForeColor="Blue">Home</asp:HyperLink>
+            </td>
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink1" runat="server" 
+                        NavigateUrl="~/Admin/AddDietitian.aspx" ForeColor="Blue">Add Dietitian</asp:HyperLink>
+               
+                </td>
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink2" runat="server" 
+                        NavigateUrl="~/Admin/View_User.aspx" ForeColor="Blue">View Users</asp:HyperLink>
+                </td>
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink3" runat="server" 
+                        NavigateUrl="~/Admin/BMICalculation.aspx" ForeColor="Blue">BMI Calculator</asp:HyperLink>
+                </td>
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink4" runat="server" 
+                        NavigateUrl="~/Admin/ViewCharts.aspx" ForeColor="Blue">View Charts</asp:HyperLink>
+                </td>
+               <td class="style3">
+                   <asp:HyperLink ID="HyperLink10" runat="server" 
+                       NavigateUrl="~/Admin/Add_Food.aspx" ForeColor="Blue">Add Food</asp:HyperLink>
+               </td>
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink6" runat="server" 
+                        NavigateUrl="~/Admin/Exercise_Video.aspx" ForeColor="Blue">Exercise Videos</asp:HyperLink>
+                </td>
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink7" runat="server" 
+                        NavigateUrl="~/Admin/RecipeVideos.aspx" ForeColor="Blue">Recipe Videos</asp:HyperLink>
+                </td>
+              
+                <td class="style3">
+                    <asp:HyperLink ID="HyperLink8" runat="server" 
+                        NavigateUrl="~/LoginPages/Logout.aspx" ForeColor="Blue">Logout</asp:HyperLink>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="9">
+                </td>
+              
+            </tr>
+            <tr>
+                <td colspan="9">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+                    </td>
+                
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>
